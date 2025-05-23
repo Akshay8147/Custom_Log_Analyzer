@@ -1,0 +1,22 @@
+15:32.104831 DSWP.out[2183:2470]: HAL                       A FibChannelAdapter::Handle  - DswpHalMulticastGroupsUpdate
+	Number of groups = 5
+	Grouplist 0x7efe8944172c
+15:32.107840 DSWP.out[2183:2470]: HAL                       > GrBinaryFileSniffer::Write 
+15:32.107854 DSWP.out[2183:2470]: HAL                       < GrBinaryFileSniffer::Write RetCode is 0
+15:32.107864 DSWP.out[2183:2470]: HAL                       A FibChannelAdapter: Command sending succeeded [0x0]
+15:32.107873 DSWP.out[2183:2233]: util::ZippingManager      V ZippingThreadFunc - m_pRequestParams = 0x7efe2002a380. File = /var/log/DswpLogs/DswpTraceLog.0_20240410_11:15:32.107773
+15:32.107887 DSWP.out[2183:2470]: HAL                       < FibChannelAdapter::Execute FibChannelAdapter:Execute ChannelAdapter[1]
+15:32.107944 DSWP.out[2183:2470]: HAL                       D FibHandler::HandleHalCommand Execution result: 0x7efe89441710 DSWP_RET_OK
+15:32.107953 DSWP.out[2183:2470]: HAL                       A FibHandler::HandleHalCommand PostExecution result: 0x7efe89441710 DSWP_RET_OK
+15:32.107914 DSWP.out[2183:2466]: ForwardingEngine          A ForwardingEng Received new message : DswpMessage, size(bytes): 48, MessageId: 5105, ReplyQueueId: 0, DestQueueId: 9, Priority: 2, Data: 0x7efe89441710
+15:32.107994 DSWP.out[2183:2466]: ForwardingEngine          A FibMulticastGroupsUpdateListCommand::LogEventOnHandling Got event with NumOfGroups = 5
+15:32.108007 DSWP.out[2183:2466]: ForwardingEngine          > PimInstance::HandleAsyncUpdateReplyFromHw 
+15:32.108014 DSWP.out[2183:2466]: ForwardingEngine          A HW multicast groups update success!
+15:32.108021 DSWP.out[2183:2466]: ForwardingEngine          < PimInstance::HandleAsyncUpdateReplyFromHw 
+15:32.108029 DSWP.out[2183:2466]: ForwardingEngine          A FibMulticastGroupsUpdateCommand::~FibMulticastGroupsUpdateCommand ObjectPeakCounter: 0
+15:32.108036 DSWP.out[2183:2466]: ForwardingEngine          A FibMulticastGroupsUpdateCommand::~FibMulticastGroupsUpdateCommand Destructor called for FibMulticastGroupsUpdateCommand
+15:32.122515 DSWP.out[2183:2466]: ForwardingEngine          A ForwardingEng Received new message : DswpMessage, size(bytes): 48, MessageId: 821, ReplyQueueId: 0, DestQueueId: 9, Priority: 2, Data: 0x7efe8fd26eb0
+15:32.122541 DSWP.out[2183:2466]: ForwardingEngine          D Got MpfPimRecordsReportMetaswitchEvent. ObjectKey [53:1]
+15:32.122554 DSWP.out[2183:2466]: ForwardingEngine          > MpfPimRecordsReportMetaswitchEvent::SpecificExecute 
+15:32.122563 DSWP.out[2183:2466]: ForwardingEngine          > PimInstance::MulticastGroupsUpdate 
+15:32.122577 DSWP.out[2183:2466]: ForwardingEngine          A FibMulticastGroupsUpdateCommand::FibMulticastGroupsUpdateCommand ObjectPeakCounter: 1

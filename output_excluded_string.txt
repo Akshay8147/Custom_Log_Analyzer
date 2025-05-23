@@ -1,0 +1,10 @@
+15:32.104831 DSWP.out[2183:2470]: HAL                       A FibChannelAdapter::Handle  - DswpHalMulticastGroupsUpdate
+	Number of groups = 5
+	Grouplist 0x7efe8944172c
+15:32.107840 DSWP.out[2183:2470]: HAL                       > GrBinaryFileSniffer::Write 
+15:32.107854 DSWP.out[2183:2470]: HAL                       < GrBinaryFileSniffer::Write RetCode is 0
+15:32.107864 DSWP.out[2183:2470]: HAL                       A FibChannelAdapter: Command sending succeeded [0x0]
+15:32.107873 DSWP.out[2183:2233]: util::ZippingManager      V ZippingThreadFunc - m_pRequestParams = 0x7efe2002a380. File = /var/log/DswpLogs/DswpTraceLog.0_20240410_11:15:32.107773
+15:32.107887 DSWP.out[2183:2470]: HAL                       < FibChannelAdapter::Execute FibChannelAdapter:Execute ChannelAdapter[1]
+15:32.107944 DSWP.out[2183:2470]: HAL                       D FibHandler::HandleHalCommand Execution result: 0x7efe89441710 DSWP_RET_OK
+15:32.107953 DSWP.out[2183:2470]: HAL                       A FibHandler::HandleHalCommand PostExecution result: 0x7efe89441710 DSWP_RET_OK

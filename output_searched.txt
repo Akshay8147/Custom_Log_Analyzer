@@ -1,0 +1,12 @@
+15:32.107914 DSWP.out[2183:2466]: ForwardingEngine          A ForwardingEng Received new message : DswpMessage, size(bytes): 48, MessageId: 5105, ReplyQueueId: 0, DestQueueId: 9, Priority: 2, Data: 0x7efe89441710
+15:32.107994 DSWP.out[2183:2466]: ForwardingEngine          A FibMulticastGroupsUpdateListCommand::LogEventOnHandling Got event with NumOfGroups = 5
+15:32.108007 DSWP.out[2183:2466]: ForwardingEngine          > PimInstance::HandleAsyncUpdateReplyFromHw 
+15:32.108014 DSWP.out[2183:2466]: ForwardingEngine          A HW multicast groups update success!
+15:32.108021 DSWP.out[2183:2466]: ForwardingEngine          < PimInstance::HandleAsyncUpdateReplyFromHw 
+15:32.108029 DSWP.out[2183:2466]: ForwardingEngine          A FibMulticastGroupsUpdateCommand::~FibMulticastGroupsUpdateCommand ObjectPeakCounter: 0
+15:32.108036 DSWP.out[2183:2466]: ForwardingEngine          A FibMulticastGroupsUpdateCommand::~FibMulticastGroupsUpdateCommand Destructor called for FibMulticastGroupsUpdateCommand
+15:32.122515 DSWP.out[2183:2466]: ForwardingEngine          A ForwardingEng Received new message : DswpMessage, size(bytes): 48, MessageId: 821, ReplyQueueId: 0, DestQueueId: 9, Priority: 2, Data: 0x7efe8fd26eb0
+15:32.122541 DSWP.out[2183:2466]: ForwardingEngine          D Got MpfPimRecordsReportMetaswitchEvent. ObjectKey [53:1]
+15:32.122554 DSWP.out[2183:2466]: ForwardingEngine          > MpfPimRecordsReportMetaswitchEvent::SpecificExecute 
+15:32.122563 DSWP.out[2183:2466]: ForwardingEngine          > PimInstance::MulticastGroupsUpdate 
+15:32.122577 DSWP.out[2183:2466]: ForwardingEngine          A FibMulticastGroupsUpdateCommand::FibMulticastGroupsUpdateCommand ObjectPeakCounter: 1
